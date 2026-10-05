@@ -29,3 +29,23 @@ msgstr "Область маршруту"
 #: model:ir.model.fields.selection,name:route_planning_delivery.selection__delivery_carrier__delivery_type__route_planning
 msgid "Route Planning"
 msgstr "Планування маршрутів"
+
+#. module: route_planning_delivery
+#. odoo-python
+#: code:addons/route_planning_delivery/models/delivery_carrier.py:0
+msgid ""
+"The delivery carrier: %s with provider type: 'Route Planning' cannot create "
+"shipments, please change the integration level to ' Get rate'."
+msgstr ""
+"Перевізник доставки %s з типом провайдера «Планування маршруту» не може "
+"створювати відправлення; змініть рівень інтеграції на «Отримати тариф»."
+
+#. module: route_planning_delivery
+#. odoo-python
+#: code:addons/route_planning_delivery/models/delivery_carrier.py:0
+msgid ""
+"The delivery carrier: %s with provider type: 'Route Planning' cannot create "
+"shipments."
+msgstr ""
+"Перевізник доставки %s з типом провайдера «Планування маршруту» не може "
+"створювати відправлення."

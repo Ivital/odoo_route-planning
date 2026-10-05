@@ -121,3 +121,60 @@ msgid "Route area for this picking, used to create routes."
 msgstr ""
 "Зона маршруту для цього переміщення, використовується для створення "
 "маршрутів."
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/stock_picking.py:0
+msgid "Cancelled from picking"
+msgstr "Скасовано з комплектування"
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/stock_picking.py:0
+msgid ""
+"This picking cannot be cancelled because it is associated with a route: "
+"%(route)s. If you want to cancel it, first remove it from the route."
+msgstr ""
+"Це переміщення не можна скасувати, оскільки воно пов’язане з маршрутом: "
+"%(route)s. Спочатку видаліть його з маршруту."
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/stock_picking.py:0
+msgid ""
+"This picking cannot be validated yet because it is associated with route: "
+"%(route)s. Which has not been planned yet. If you want to validate it, "
+"please plan the route first."
+msgstr ""
+"Це складське переміщення ще не можна підтвердити, оскільки воно пов’язане з "
+"маршрутом: %(route)s. Маршрут ще не заплановано. Якщо потрібно підтвердити "
+"переміщення, спочатку заплануйте маршрут."
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/stock_picking.py:0
+msgid "This picking is associated with the route: %s"
+msgstr "Це переміщення пов’язане з маршрутом: %s"
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/route_incident_type.py:0
+msgid ""
+"You cannot delete this incident type, it is necessary for pickings "
+"cancellation."
+msgstr ""
+"Не можна видалити цей тип інциденту, він потрібен для скасування переміщень."
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/route_checkpoint.py:0
+msgid "You cannot move back to planned a checkpoint with a done picking."
+msgstr ""
+"Не можна повернути контрольну точку до запланованого стану, якщо переміщення"
+" виконано."
+
+#. module: route_planning_stock
+#. odoo-python
+#: code:addons/route_planning_stock/models/route_area.py:0
+msgid "You must set a warehouse for the Route Areas created."
+msgstr "Потрібно вказати склад для створених зон маршруту."

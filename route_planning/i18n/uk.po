@@ -992,3 +992,78 @@ msgstr "Міксин вікна відвідування"
 #: model:ir.model,name:route_planning.model_route_visitwindow_template_line
 msgid "Visit Window Template Line"
 msgstr "Рядок шаблону вікна відвідування"
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_checkpoint.py:0
+msgid "Checkpoint %s does not have valid coordinates."
+msgstr "Контрольна точка %s не має дійсних координат."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid ""
+"Not enough addresses with coordinates for optimisation. Please check that "
+"partners have latitude and longitude."
+msgstr ""
+"Недостатньо адрес із координатами для оптимізації. Перевірте, що партнери "
+"мають широту й довготу."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid "Only draft routes can be planned."
+msgstr "Планувати можна лише маршрути-чернетки."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid ""
+"The partner: %(partner)s must have latitude and longitude to optimize the "
+"route."
+msgstr ""
+"Партнер %(partner)s повинен мати широту й довготу для оптимізації маршруту."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_visitwindow_mixin.py:0
+msgid "The time from must be earlier than the time to."
+msgstr "Час «від» має бути раніше часу «до»."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid "The time start must be between 0 and 24 hours."
+msgstr "Час початку має бути між 0 і 24 годинами."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_checkpoint.py:0
+msgid "You cannot delete checkpoints that are not in draft state."
+msgstr ""
+"Не можна видаляти контрольні точки, які не перебувають у стані чернетки."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid "You cannot delete routes that are not in draft state."
+msgstr "Не можна видаляти маршрути, які не перебувають у стані чернетки."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_checkpoint.py:0
+msgid ""
+"You cannot set the sequence of checkpoint: %s to %s because there are "
+"previous checkpoints marked as done or incident."
+msgstr ""
+"Не можна змінити послідовність контрольної точки %s на %s, оскільки "
+"попередні контрольні точки позначено як виконані або інцидент."
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_checkpoint.py:0
+msgid ""
+"You must mark previous checkpoints as done before marking this one as done."
+msgstr ""
+"Потрібно позначити попередні контрольні точки як виконані, перш ніж "
+"позначати цю."
