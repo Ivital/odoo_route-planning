@@ -1,0 +1,401 @@
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 18.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2026-10-05 05:40+0000\n"
+"Last-Translator: Ivital <Ivital@users.noreply.github.com>\n"
+"Language-Team: Ukrainian\n"
+"Language: uk_UA\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__active
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__active
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__active
+msgid "Active"
+msgstr "Активний"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_ids
+msgid "Activities"
+msgstr "Дії"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_area_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_incident_type_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_visitwindow_template_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_visitwindow_template_search
+msgid "Archived"
+msgstr "Архівовано"
+
+#. module: route_planning
+#: model:ir.ui.menu,name:route_planning.menu_route_area
+msgid "Areas"
+msgstr "Області"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__auto_assign
+msgid "Auto Assign"
+msgstr "Автопризначення"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_area_form
+msgid "Availability"
+msgstr "Доступність"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__checkpoint_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__checkpoint_ids
+msgid "Checkpoint"
+msgstr "Контрольна точка"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_checkpoint
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__checkpoint_ids
+#: model:ir.ui.menu,name:route_planning.menu_route_checkpoint
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Checkpoints"
+msgstr "Контрольні точки"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__code
+msgid "Code"
+msgstr "Код"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__company_id
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__company_id
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__company_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__company_id
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Company"
+msgstr "Компанія"
+
+#. module: route_planning
+#: model:ir.ui.menu,name:route_planning.menu_route_planning_config
+msgid "Configuration"
+msgstr "Конфігурація"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__country_ids
+msgid "Country"
+msgstr "Країна"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_route__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__create_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__create_uid
+msgid "Created by"
+msgstr "Створив"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_route__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__create_date
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__create_date
+msgid "Created on"
+msgstr "Створено"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__date_done
+msgid "Date Done"
+msgstr "Дата виконання"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__day_of_week
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_mixin__day_of_week
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__day_of_week
+msgid "Day Of Week"
+msgstr "День тижня"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_route__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__display_name
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__display_name
+msgid "Display Name"
+msgstr "Відображувана назва"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_checkpoint__state__done
+#: model:ir.model.fields.selection,name:route_planning.selection__route_route__state__done
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Done"
+msgstr "Готово"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_follower_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_follower_ids
+msgid "Followers"
+msgstr "Підписники"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__4
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__4
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__4
+msgid "Friday"
+msgstr "П’ятниця"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__has_message
+#: model:ir.model.fields,field_description:route_planning.field_route_route__has_message
+msgid "Has Message"
+msgstr "Має повідомлення"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_exception_icon
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_exception_icon
+msgid "Icon"
+msgstr "Іконка"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_incident_type
+#: model:ir.ui.menu,name:route_planning.menu_route_incident_type
+msgid "Incident Types"
+msgstr "Типи інцидентів"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_is_follower
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_is_follower
+msgid "Is Follower"
+msgstr "Є підписником"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__latitude
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Latitude"
+msgstr "Широта"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__line_ids
+msgid "Line"
+msgstr "Рядок"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__longitude
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Longitude"
+msgstr "Довгота"
+
+#. module: route_planning
+#: model:res.groups,name:route_planning.group_route_planning_manager
+msgid "Manager"
+msgstr "Керівник"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_ids
+msgid "Messages"
+msgstr "Повідомлення"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__0
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__0
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__0
+msgid "Monday"
+msgstr "Понеділок"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__name
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__name
+#: model:ir.model.fields,field_description:route_planning.field_route_route__name
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__name
+msgid "Name"
+msgstr "Назва"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__note
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__note
+msgid "Note"
+msgstr "Нотатка"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+msgid "Notes"
+msgstr "Нотатки"
+
+#. module: route_planning
+#: model:ir.ui.menu,name:route_planning.menu_route_planning_operations
+msgid "Operations"
+msgstr "Операції"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__partner_id
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__partner_id
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+msgid "Partner"
+msgstr "Партнер"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__rescheduled
+msgid "Rescheduled"
+msgstr "Переплановано"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_route
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__route_id
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+msgid "Route"
+msgstr "Маршрут"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_area
+#: model:ir.model.fields,field_description:route_planning.field_res_partner__route_area_id
+#: model:ir.model.fields,field_description:route_planning.field_res_users__route_area_id
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__route_area_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__route_area_id
+msgid "Route Area"
+msgstr "Область маршруту"
+
+#. module: route_planning
+#: model:ir.module.category,name:route_planning.module_category_route_planning
+#: model:ir.ui.menu,name:route_planning.menu_route_planning_main
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Route Planning"
+msgstr "Планування маршрутів"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__route_state
+msgid "Route State"
+msgstr "Стан маршруту"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_route
+#: model:ir.ui.menu,name:route_planning.menu_route_route
+msgid "Routes"
+msgstr "Маршрути"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__5
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__5
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__5
+msgid "Saturday"
+msgstr "Субота"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__sequence
+msgid "Sequence"
+msgstr "Послідовність"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__state_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__state
+#: model:ir.model.fields,field_description:route_planning.field_route_route__state
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "State"
+msgstr "Стан"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__6
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__6
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__6
+msgid "Sunday"
+msgstr "Неділя"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__template_id
+msgid "Template"
+msgstr "Шаблон"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__3
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__3
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__3
+msgid "Thursday"
+msgstr "Четвер"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__time_from
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_mixin__time_from
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__time_from
+msgid "Time From"
+msgstr "Час від"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__time_start
+#: model:ir.model.fields,field_description:route_planning.field_route_route__time_start
+msgid "Time Start"
+msgstr "Час початку"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__time_to
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_mixin__time_to
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__time_to
+msgid "Time To"
+msgstr "Час до"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__1
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__1
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__1
+msgid "Tuesday"
+msgstr "Вівторок"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__user_id
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__user_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__user_id
+#: model:res.groups,name:route_planning.group_route_planning_user
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_area_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "User"
+msgstr "Користувач"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_visitwindow_template
+#: model:ir.ui.menu,name:route_planning.menu_route_visitwindow_template
+msgid "Visit Window Templates"
+msgstr "Шаблони вікон візитів"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__waiting_time
+#: model:ir.model.fields,field_description:route_planning.field_route_route__waiting_time
+msgid "Waiting Time"
+msgstr "Час очікування"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_partner_visitwindow__day_of_week__2
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_mixin__day_of_week__2
+#: model:ir.model.fields.selection,name:route_planning.selection__route_visitwindow_template_line__day_of_week__2
+msgid "Wednesday"
+msgstr "Середа"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__zip_from
+msgid "Zip From"
+msgstr "Поштовий індекс від"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__zip_to
+msgid "Zip To"
+msgstr "Поштовий індекс до"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__zip_ids
+msgid "Zip ranges"
+msgstr "Діапазони поштових індексів"
