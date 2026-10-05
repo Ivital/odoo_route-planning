@@ -399,3 +399,334 @@ msgstr "Поштовий індекс до"
 #: model:ir.model.fields,field_description:route_planning.field_route_area__zip_ids
 msgid "Zip ranges"
 msgstr "Діапазони поштових індексів"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.route_checkpoint_view_kanban
+#: model_terms:ir.ui.view,arch_db:route_planning.route_route_view_kanban
+msgid "<strong>User:</strong>"
+msgstr "<strong>Користувач:</strong>"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_needaction
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_needaction
+msgid "Action Needed"
+msgstr "Потрібна дія"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_exception_decoration
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_exception_decoration
+msgid "Activity Exception Decoration"
+msgstr "Оформлення винятку дії"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_state
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_state
+msgid "Activity State"
+msgstr "Стан дії"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_type_icon
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_type_icon
+msgid "Activity Type Icon"
+msgstr "Піктограма типу дії"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Area"
+msgstr "Площа"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_attachment_count
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_attachment_count
+msgid "Attachment Count"
+msgstr "Кількість вкладень"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Back to Draft"
+msgstr "Повернути в чернетку"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Back to Planned"
+msgstr "Повернути до запланованого"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_create_incident_form
+msgid "Cancel"
+msgstr "Скасувати"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_create_incident
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_create_incident_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Create Incident"
+msgstr "Створити інцидент"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__display_address
+msgid "Display Address"
+msgstr "Показувати адресу"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Do you want to mark this checkpoint as done?"
+msgstr "Хочете позначити цю контрольну точку як виконану?"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Do you want to set this checkpoint back to planned?"
+msgstr "Хочете повернути цю контрольну точку до запланованої?"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_checkpoint__state__draft
+#: model:ir.model.fields.selection,name:route_planning.selection__route_route__state__draft
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Draft"
+msgstr "Чернетка"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_partner_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_partner_ids
+msgid "Followers (Partners)"
+msgstr "Підписники (контрагенти)"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Geolocation"
+msgstr "Геолокація"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__date_localization
+msgid "Geolocation Date"
+msgstr "Дата геолокації"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Group By"
+msgstr "Групувати за"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_route__state__in_progress
+msgid "In Progress"
+msgstr "У процесі"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_checkpoint__state__incident
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+msgid "Incident"
+msgstr "Інцидент"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__incident_type_id
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__incident_type_id
+msgid "Incident Type"
+msgstr "Тип інциденту"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_route__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__write_uid
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__write_uid
+msgid "Last Updated by"
+msgstr "Останнє оновлення ким"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_area__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_area_zip__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_create_incident__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_incident_type__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_partner_visitwindow__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_route__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template__write_date
+#: model:ir.model.fields,field_description:route_planning.field_route_visitwindow_template_line__write_date
+msgid "Last Updated on"
+msgstr "Останнє оновлення"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_form
+msgid "Mark Done"
+msgstr "Позначити як виконане"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Mark as done"
+msgstr "Позначити як виконане"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_has_error
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_has_error
+msgid "Message Delivery error"
+msgstr "Помилка доставки повідомлення"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__my_activity_date_deadline
+#: model:ir.model.fields,field_description:route_planning.field_route_route__my_activity_date_deadline
+msgid "My Activity Deadline"
+msgstr "Кінцевий термін моєї дії"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "My Routes"
+msgstr "Мої маршрути"
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid "New"
+msgstr "Новий"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_date_deadline
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Кінцевий термін наступної дії"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_summary
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_summary
+msgid "Next Activity Summary"
+msgstr "Підсумок наступної дії"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_type_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_type_id
+msgid "Next Activity Type"
+msgstr "Тип наступної дії"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_needaction_counter
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Кількість дій"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__message_has_error_counter
+#: model:ir.model.fields,field_description:route_planning.field_route_route__message_has_error_counter
+msgid "Number of errors"
+msgstr "Кількість помилок"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Plan"
+msgstr "План"
+
+#. module: route_planning
+#: model:ir.model.fields.selection,name:route_planning.selection__route_checkpoint__state__planned
+#: model:ir.model.fields.selection,name:route_planning.selection__route_route__state__planned
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Planned"
+msgstr "Заплановано"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Refresh"
+msgstr "Оновити"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__activity_user_id
+#: model:ir.model.fields,field_description:route_planning.field_route_route__activity_user_id
+msgid "Responsible User"
+msgstr "Відповідальний користувач"
+
+#. module: route_planning
+#: model:ir.actions.act_window,name:route_planning.action_route_area
+msgid "Route Areas"
+msgstr "Зони маршруту"
+
+#. module: route_planning
+#. odoo-python
+#: code:addons/route_planning/models/route_route.py:0
+msgid "Route Map"
+msgstr "Карта маршруту"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_res_partner__route_visitwindow_ids
+#: model:ir.model.fields,field_description:route_planning.field_res_users__route_visitwindow_ids
+msgid "Route Visitwindow"
+msgstr "Вікно відвідування маршруту"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Route name..."
+msgstr "Назва маршруту..."
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__schedule_date
+#: model:ir.model.fields,field_description:route_planning.field_route_route__schedule_date
+msgid "Schedule Date"
+msgstr "Дата планування"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__schedule_time
+msgid "Schedule Time"
+msgstr "Час за розкладом"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_checkpoint_search
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_search
+msgid "Schedule date"
+msgstr "Дата планування"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_route__start_location_id
+msgid "Start Location"
+msgstr "Початкове місце"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Updated on"
+msgstr "Оновлено"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "View"
+msgstr "Перегляд"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "View Map"
+msgstr "Переглянути карту"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "View Origin"
+msgstr "Переглянути джерело"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_visitwindow_template
+#: model:ir.model.fields,field_description:route_planning.field_res_partner__route_visitwindow_template_id
+#: model:ir.model.fields,field_description:route_planning.field_res_users__route_visitwindow_template_id
+msgid "Visit Window Template"
+msgstr "Шаблон вікна відвідування"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_visitwindow_template_form
+msgid "Visit Windows"
+msgstr "Вікна відвідування"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__website_message_ids
+#: model:ir.model.fields,field_description:route_planning.field_route_route__website_message_ids
+msgid "Website Messages"
+msgstr "Повідомлення вебсайту"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_area_form
+msgid "ZIP ranges"
+msgstr "Діапазони ZIP"

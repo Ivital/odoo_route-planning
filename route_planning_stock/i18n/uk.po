@@ -64,3 +64,13 @@ msgstr "Одиниця"
 #: model:ir.model.fields,field_description:route_planning_stock.field_route_area__warehouse_id
 msgid "Warehouse"
 msgstr "Склад"
+
+#. module: route_planning_stock
+#: model_terms:ir.ui.view,arch_db:route_planning_stock.view_route_checkpoint_form
+msgid "Add a Product"
+msgstr "Додати товар"
+
+#. module: route_planning_stock
+#: model:ir.model.fields,field_description:route_planning_stock.field_route_checkpoint__picking_domain
+msgid "Picking Domain"
+msgstr "Домен комплектування"
