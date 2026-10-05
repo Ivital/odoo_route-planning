@@ -918,3 +918,77 @@ msgstr "Тип дії-винятку для запису."
 #: model:ir.model.fields,help:route_planning.field_route_route__website_message_ids
 msgid "Website communication history"
 msgstr "Історія комунікації через вебсайт"
+
+#. module: route_planning
+#: model:ir.model.constraint,message:route_planning.constraint_route_partner_visitwindow_partner_day_unique
+msgid ""
+"A visit window for the same day of the week already exists for this partner."
+msgstr ""
+"Для цього партнера вже існує вікно відвідування на той самий день тижня."
+
+#. module: route_planning
+#: model:ir.model.constraint,message:route_planning.constraint_route_visitwindow_template_line_template_day_unique
+msgid ""
+"A visit window for the same day of the week already exists in this template."
+msgstr "У цьому шаблоні вже існує вікно відвідування на той самий день тижня."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_area__auto_assign
+msgid ""
+"Automatically assign this area to partners matching its criteria, based on "
+"country, state, and zip code range."
+msgstr ""
+"Автоматично призначати цю область партнерам, що відповідають її критеріям, "
+"за країною, областю та діапазоном поштових індексів."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_area__waiting_time
+#: model:ir.model.fields,help:route_planning.field_route_route__waiting_time
+msgid "Average waiting time at each stop, expressed in minutes."
+msgstr "Середній час очікування на кожній зупинці, у хвилинах."
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_create_incident
+msgid "Create Route Incident"
+msgstr "Створити інцидент маршруту"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_incident_type__rescheduled
+msgid "If checked, checkpoints with this incident type will be rescheduled"
+msgstr ""
+"Якщо позначено, контрольні точки з цим типом інциденту буде переплановано"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__origin_checkpoint_id
+msgid "Original checkpoint when this is created from an incident"
+msgstr "Початкова контрольна точка, якщо запис створено з інциденту"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_partner_visitwindow
+msgid "Partner Visit Window"
+msgstr "Вікно відвідування партнера"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_partner_visitwindow__partner_id
+msgid "Partner for this visit window"
+msgstr "Партнер для цього вікна відвідування"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_area_zip
+msgid "Route Area Zip range"
+msgstr "Діапазон поштових індексів зони маршруту"
+
+#. module: route_planning
+#: model:ir.model.constraint,message:route_planning.constraint_route_area_code_uniq
+msgid "The code must be unique per company."
+msgstr "Код має бути унікальним для кожної компанії."
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_visitwindow_mixin
+msgid "Visit Window Mixin"
+msgstr "Міксин вікна відвідування"
+
+#. module: route_planning
+#: model:ir.model,name:route_planning.model_route_visitwindow_template_line
+msgid "Visit Window Template Line"
+msgstr "Рядок шаблону вікна відвідування"

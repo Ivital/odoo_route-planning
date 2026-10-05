@@ -99,3 +99,25 @@ msgstr "ID переміщень без пакунка"
 #: model:ir.model.fields,field_description:route_planning_stock.field_stock_picking__route_checkpoint_ids
 msgid "Route Checkpoints"
 msgstr "Контрольні точки маршруту"
+
+#. module: route_planning_stock
+#: model:route.incident.type,name:route_planning_stock.route_incident_cancel
+msgid "Document Cancelled"
+msgstr "Документ скасовано"
+
+#. module: route_planning_stock
+#: model:ir.model,name:route_planning_stock.model_route_checkpoint
+msgid "Route Checkpoint"
+msgstr "Контрольна точка маршруту"
+
+#. module: route_planning_stock
+#: model:ir.model,name:route_planning_stock.model_route_incident_type
+msgid "Route Incident Type"
+msgstr "Тип інциденту маршруту"
+
+#. module: route_planning_stock
+#: model:ir.model.fields,help:route_planning_stock.field_stock_picking__route_area_id
+msgid "Route area for this picking, used to create routes."
+msgstr ""
+"Зона маршруту для цього переміщення, використовується для створення "
+"маршрутів."

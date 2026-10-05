@@ -43,3 +43,13 @@ msgstr "Тип доставки перевізника"
 #: model:ir.model.fields,field_description:route_planning_rma_delivery.field_rma__reception_carrier_delivery_type
 msgid "Reception carrier delivery type"
 msgstr "Тип доставки перевізника приймання"
+
+#. module: route_planning_rma_delivery
+#: model:ir.model,name:route_planning_rma_delivery.model_rma_choose_delivery_carrier
+msgid "RMA Delivery Carrier Selection Wizard"
+msgstr "Майстер вибору перевізника доставки RMA"
+
+#. module: route_planning_rma_delivery
+#: model:ir.model,name:route_planning_rma_delivery.model_rma_rma_wizard
+msgid "Rma Rma Wizard"
+msgstr "Майстер RMA"
