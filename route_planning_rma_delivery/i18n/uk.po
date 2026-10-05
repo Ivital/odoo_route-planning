@@ -33,3 +33,13 @@ msgstr "Область маршруту"
 #: model:ir.model.fields,field_description:route_planning_rma_delivery.field_stock_return_picking__reception_route_area_id
 msgid "Reception route area"
 msgstr "Зона маршруту приймання"
+
+#. module: route_planning_rma_delivery
+#: model:ir.model.fields,field_description:route_planning_rma_delivery.field_rma__carrier_delivery_type
+msgid "Carrier delivery type"
+msgstr "Тип доставки перевізника"
+
+#. module: route_planning_rma_delivery
+#: model:ir.model.fields,field_description:route_planning_rma_delivery.field_rma__reception_carrier_delivery_type
+msgid "Reception carrier delivery type"
+msgstr "Тип доставки перевізника приймання"

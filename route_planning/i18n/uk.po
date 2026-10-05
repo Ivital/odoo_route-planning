@@ -730,3 +730,191 @@ msgstr "Повідомлення вебсайту"
 #: model_terms:ir.ui.view,arch_db:route_planning.view_route_area_form
 msgid "ZIP ranges"
 msgstr "Діапазони ZIP"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.route_route_view_kanban
+msgid "<strong>Area:</strong>"
+msgstr "<strong>Область:</strong>"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.route_checkpoint_view_kanban
+msgid "<strong>Route:</strong>"
+msgstr "<strong>Маршрут:</strong>"
+
+#. module: route_planning
+#: model:mail.message.subtype,description:route_planning.mt_checkpoint_new
+#: model:mail.message.subtype,name:route_planning.mt_checkpoint_new
+#: model:mail.message.subtype,name:route_planning.mt_route_checkpoint_new
+msgid "Checkpoint Created"
+msgstr "Контрольну точку створено"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_checkpoint
+msgid "Checkpoints are created when you plan routes."
+msgstr "Контрольні точки створюються під час планування маршрутів."
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Compute Localization"
+msgstr "Обчислити локалізацію"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Compute based on address"
+msgstr "Обчислювати за адресою"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_incident_type
+msgid "Create your first incident type"
+msgstr "Створіть свій перший тип інциденту"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_route
+msgid "Create your first route"
+msgstr "Створіть свій перший маршрут"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_area
+msgid "Create your first route area"
+msgstr "Створіть свою першу зону маршруту"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_visitwindow_template
+msgid "Create your first visit window template"
+msgstr "Створіть свій перший шаблон вікна візиту"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_partner_visitwindow__time_to
+#: model:ir.model.fields,help:route_planning.field_route_visitwindow_mixin__time_to
+#: model:ir.model.fields,help:route_planning.field_route_visitwindow_template_line__time_to
+msgid "End time of the visit window"
+msgstr "Час завершення вікна відвідування"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__activity_type_icon
+#: model:ir.model.fields,help:route_planning.field_route_route__activity_type_icon
+msgid "Font awesome icon e.g. fa-tasks"
+msgstr "Піктограма Font Awesome, наприклад fa-tasks"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__activity_exception_icon
+#: model:ir.model.fields,help:route_planning.field_route_route__activity_exception_icon
+msgid "Icon to indicate an exception activity."
+msgstr "Піктограма для позначення дії-винятку."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__message_needaction
+#: model:ir.model.fields,help:route_planning.field_route_route__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Якщо позначено, нові повідомлення потребують вашої уваги."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__message_has_error
+#: model:ir.model.fields,help:route_planning.field_route_route__message_has_error
+msgid "If checked, some messages have a delivery error."
+msgstr "Якщо позначено, деякі повідомлення мають помилку доставки."
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_incident_type
+msgid "Incident types help categorize route problems and define actions."
+msgstr ""
+"Типи інцидентів допомагають категоризувати проблеми маршрутів і визначати "
+"дії."
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_checkpoint
+msgid "No checkpoints found"
+msgstr "Контрольні точки не знайдено"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__message_needaction_counter
+#: model:ir.model.fields,help:route_planning.field_route_route__message_needaction_counter
+msgid "Number of messages requiring action"
+msgstr "Кількість повідомлень, що потребують дії"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__message_has_error_counter
+#: model:ir.model.fields,help:route_planning.field_route_route__message_has_error_counter
+msgid "Number of messages with delivery error"
+msgstr "Кількість повідомлень із помилкою доставки"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_route_route_form
+msgid "Open in Google Maps"
+msgstr "Відкрити в Google Maps"
+
+#. module: route_planning
+#: model:ir.model.fields,field_description:route_planning.field_route_checkpoint__origin_checkpoint_id
+msgid "Origin Checkpoint"
+msgstr "Початкова контрольна точка"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Refresh Localization"
+msgstr "Оновити локалізацію"
+
+#. module: route_planning
+#: model_terms:ir.ui.view,arch_db:route_planning.view_partner_form_route
+msgid "Route Planning Info"
+msgstr "Інформація про планування маршруту"
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_area
+msgid "Route areas help organize delivery zones and assign responsible users."
+msgstr ""
+"Зони маршрутів допомагають організувати зони доставки та призначити "
+"відповідальних користувачів."
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_route
+msgid "Routes help organize delivery schedules and track progress."
+msgstr ""
+"Маршрути допомагають організувати графіки доставки й відстежувати прогрес."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_partner_visitwindow__time_from
+#: model:ir.model.fields,help:route_planning.field_route_visitwindow_mixin__time_from
+#: model:ir.model.fields,help:route_planning.field_route_visitwindow_template_line__time_from
+msgid "Start time of the visit window"
+msgstr "Час початку вікна відвідування"
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__activity_state
+#: model:ir.model.fields,help:route_planning.field_route_route__activity_state
+msgid ""
+"Status based on activities\n"
+"Overdue: Due date is already passed\n"
+"Today: Activity date is today\n"
+"Planned: Future activities."
+msgstr ""
+"Стан на основі дій\n"
+"Прострочено: строк уже минув\n"
+"Сьогодні: дата дії — сьогодні\n"
+"Заплановано: майбутні дії."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_res_partner__route_visitwindow_template_id
+#: model:ir.model.fields,help:route_planning.field_res_users__route_visitwindow_template_id
+msgid ""
+"Template to pre-fill visit windows for this partner, this field will be "
+"cleared after applying the template."
+msgstr ""
+"Шаблон для попереднього заповнення часових вікон відвідування для цього "
+"контрагента; після застосування шаблону це поле буде очищено."
+
+#. module: route_planning
+#: model_terms:ir.actions.act_window,help:route_planning.action_route_visitwindow_template
+msgid "Templates help standardize visit windows for partners."
+msgstr "Шаблони допомагають стандартизувати вікна візитів для контрагентів."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__activity_exception_decoration
+#: model:ir.model.fields,help:route_planning.field_route_route__activity_exception_decoration
+msgid "Type of the exception activity on record."
+msgstr "Тип дії-винятку для запису."
+
+#. module: route_planning
+#: model:ir.model.fields,help:route_planning.field_route_checkpoint__website_message_ids
+#: model:ir.model.fields,help:route_planning.field_route_route__website_message_ids
+msgid "Website communication history"
+msgstr "Історія комунікації через вебсайт"

@@ -74,3 +74,28 @@ msgstr "Додати товар"
 #: model:ir.model.fields,field_description:route_planning_stock.field_route_checkpoint__picking_domain
 msgid "Picking Domain"
 msgstr "Домен комплектування"
+
+#. module: route_planning_stock
+#: model_terms:ir.ui.view,arch_db:route_planning_stock.view_picking_form
+msgid "<span class=\"o_stat_text\">Route planning</span>"
+msgstr "<span class=\"o_stat_text\">Планування маршруту</span>"
+
+#. module: route_planning_stock
+#: model_terms:ir.ui.view,arch_db:route_planning_stock.route_checkpoint_view_kanban
+msgid "<strong>Picking: </strong>"
+msgstr "<strong>Переміщення: </strong>"
+
+#. module: route_planning_stock
+#: model:ir.model.fields,field_description:route_planning_stock.field_stock_picking__has_route_planning
+msgid "Has Route Planning"
+msgstr "Є планування маршруту"
+
+#. module: route_planning_stock
+#: model:ir.model.fields,field_description:route_planning_stock.field_route_checkpoint__move_ids_without_package
+msgid "Move Ids Without Package"
+msgstr "ID переміщень без пакунка"
+
+#. module: route_planning_stock
+#: model:ir.model.fields,field_description:route_planning_stock.field_stock_picking__route_checkpoint_ids
+msgid "Route Checkpoints"
+msgstr "Контрольні точки маршруту"
